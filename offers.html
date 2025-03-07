@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy</title>
+    <link rel="shortcut icon" href="swiggy.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="offers.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="left-side">
+            <img src="swiggy.jpg" alt="Swiggy" class="logo">
+            
+            <div class="text">
+                <a href="index.html">Swiggy</a>
+            </div>
+            <select class="location-dropdown">
+                <option>Select Location</option>
+                <option>Bangalore</option>
+                <option>Mumbai</option>
+                <option>Delhi</option>
+            </select>
+        </div>
+        <nav class="nav-menu">
+            <a href="offers.html" class="nav-link"><i class="fa-solid fa-tags"></i>Offers</a>
+            <a href="help.html" class="nav-link"><i class="fa-solid fa-handshake-angle"></i>Help</a>
+            <a href="signin.html" class="nav-link"> <i class="fa-solid fa-user"></i>Sign In</a>
+            <a href="cart.html" class="nav-link cart">
+                <i class="fas fa-shopping-cart">cart</i>
+            </a>
+            <div class="search-box">
+                <input type="text" placeholder="Search" class="search-input">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </nav>
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    <div class="offers-section">
+        <h2>Exclusive Offers & Discounts</h2>
+    
+        <div class="offers-grid">
+            <div class="offer-card membership">
+                <h3>🔥 Membership Offer</h3>
+                <p>Get <b>20% OFF</b> on all orders with Swiggy One Membership.</p>
+            </div>
+    
+            <div class="offer-card festival">
+                <h3>🎉 Festival Offer</h3>
+                <p>Celebrate Holi with up to <b>30% OFF</b> on sweets & snacks.</p>
+            </div>
+    
+            <div class="offer-card dish">
+                <h3>🍕 Dish Special</h3>
+                <p>Buy 1 Get 1 Free on Pizzas this weekend!</p>
+            </div>
+    
+            <div class="offer-card swiggy">
+                <h3>🚀 Swiggy Exclusive</h3>
+                <p>Flat ₹50 OFF on your first order above ₹199.</p>
+            </div>
+    
+            <div class="offer-card credit-card">
+                <h3>💳 Credit Card Offer</h3>
+                <p>Use HDFC card & get <b>₹100 cashback</b> on orders above ₹500.</p>
+            </div>
+    
+            <div class="offer-card coupon">
+                <h3>🎟️ Coupon Deal</h3>
+                <p>Use code <b>SAVE50</b> to get ₹50 OFF on any order.</p>
+            </div>
+    
+            <div class="offer-card other">
+                <h3>🎁 Special Deals</h3>
+                <p>Get free desserts on orders above ₹300 at select restaurants.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We bring the best restaurants and deals to your doorstep. Order your favorite dishes with amazing discounts!</p>
+            </div>
+    
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="help.html">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+    
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Street, Karwar</p>
+                <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                <p><i class="fas fa-envelope"></i> support@fooddelivery.com</p>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© 2024 Food Delivery | All Rights Reserved</p>
+         <br>
+            <p>Developed by Rajitha yarra</p>
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

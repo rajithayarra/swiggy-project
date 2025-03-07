@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy</title>
+    <link rel="shortcut icon" href="swiggy.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="rest.css">
+    <link rel="stylesheet" href="rest1.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="left-side">
+            <img src="swiggy.jpg" alt="Swiggy" class="logo">
+            
+            <div class="text">
+                <a href="index.html">Swiggy</a>
+            </div>
+            <select class="location-dropdown">
+                <option>Select Location</option>
+                <option>Bangalore</option>
+                <option>Mumbai</option>
+                <option>Delhi</option>
+            </select>
+        </div>
+        <nav class="nav-menu">
+            <a href="offers.html" class="nav-link"><i class="fa-solid fa-tags"></i>Offers</a>
+            <a href="help.html" class="nav-link"><i class="fa-solid fa-handshake-angle"></i>Help</a>
+            <a href="signin.html" class="nav-link"> <i class="fa-solid fa-user"></i>Sign In</a>
+            <a href="cart.html" class="nav-link cart">
+                <i class="fas fa-shopping-cart">cart</i>
+            </a>
+            <div class="search-box">
+                <input type="text" placeholder="Search" class="search-input">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+        </nav>
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    <div class="wish">
+        <br>
+        <br>
+        <h2 class="wish-heading">What's on Your Mind?</h2>
+        <div class="food-container">
+            <div class="food-item">
+                <img src="biryani.webp" alt="Food 1">
+                <p> chicken biryani</p>
+            </div>
+            <div class="food-item">
+                <img src="burger.jpg" alt="Food 2">
+                <p>Burger</p>
+            </div>
+            <div class="food-item">
+                <img src="chicken.jpg" alt="Food 3">
+                <p>Smoaked chicken</p>
+            </div>
+            <div class="food-item">
+                <img src="icecreame.jpg" alt="Food 4">
+                <p>Ice creame</p>
+            </div>
+        </div>
+    </div>
+    <div class="restaurant-section">
+        <h2 class="section-heading">Top Restaurant Chains in Karwar</h2>
+        <div class="slider-container">
+            <button class="prev-btn">&#10094;</button>
+            <div class="slider">
+                <div class="slide">
+                    <img src="dish1.jpg" alt="Dish 1">
+                    <h3 class="restaurant-name">Upahara Darshini</h3>
+                    <p class="rating">⭐ 4.4 • 20-25 mins</p>
+                    <p class="cuisine">South Indian, North Indian</p>
+                    <p class="location">Tariwada</p>
+                </div>
+                <div class="slide">
+                    <img src="dish2.jpg" alt="Dish 2">
+                    <h3 class="restaurant-name">Hotel Shrutisagar</h3>
+                    <p class="rating">⭐ 4.5 • 15-20 mins</p>
+                    <p class="cuisine">South Indian, Desserts</p>
+                    <p class="location">Tariwada</p>
+                </div>
+                <div class="slide">
+                    <img src="dish3.jpg" alt="Dish 3">
+                    <h3 class="restaurant-name">Hotel Poornima</h3>
+                   
+                    <p class="rating">⭐ 4.4 • 20-25 mins</p>
+                    <p class="cuisine">South Indian, Chinese, Tandoor</p>
+                    <p class="location">Tariwada</p>
+                </div>
+                <div class="slide">
+                    <img src="dish4.jpg" alt="Dish 4">
+                    <h3 class="restaurant-name">Sea View Hotel</h3>
+                    
+                    <p class="rating">⭐ 3.9 • 20-25 mins</p>
+                    <p class="cuisine">Indian, Chinese, Seafood, Biryani</p>
+                    <p class="location">Tariwada</p>
+                </div>
+                <div class="slide">
+                    <img src="dish4.jpg" alt="Dish 4">
+                    <h3 class="restaurant-name">Sea View Hotel</h3>
+                   
+                    <p class="rating">⭐ 3.9 • 20-25 mins</p>
+                    <p class="cuisine">Indian, Chinese, Seafood, Biryani</p>
+                    <p class="location">Tariwada</p>
+                </div>
+            </div>
+            <button class="next-btn">&#10095;</button>
+        </div>
+    </div>
+    <div class="restaurant-section1">
+        <h2>Restaurants with Online Food Delivery in Karwar</h2>
+        <div class="filter-buttons">
+            <button>Filter</button>
+            <button>Sort By</button>
+            <button>Fast Delivery</button>
+            <button>New on Swiggy</button>
+            <button>Ratings 4.0+</button>
+            <button>Pure Veg</button>
+            <button>Offers</button>
+            <button>Rs. 300-Rs. 600</button>
+            <button>Less than Rs. 300</button>
+        </div>
+    
+        <div class="restaurant-list">
+            <div class="restaurant-card">
+                <img src="kundabir.webp" alt="kunda biryani">
+                <div class="restaurant-info">
+                    <h3>Naidu gari kunda biryani</h3>
+                    <p>⭐ 4.4 • 20-25 mins</p>
+                    <p>South Indian</p>
+                    <p>Tenali</p>
+                </div>
+            </div>
+    
+            <div class="restaurant-card">
+                <img src="dum.jpeg" alt="dum biryani">
+                
+                <div class="restaurant-info">
+                    <h3>Chandu's Eat Grid Multi Cuisine Family Restaurant</h3>
+                    <p>⭐ 4.3 • 25-30 mins</p>
+                    <p>South Indian</p>
+                    <p>Tenali</p>
+                </div>
+            </div>
+    
+            <div class="restaurant-card">
+                <img src="mandi.jpg" alt="mandi">
+               
+                <div class="restaurant-info">
+                    <h3>The Zaitoon family restaurant and mandi
+        
+                        </h3>
+                    <p>⭐ 4.8 • 20-25 mins</p>
+                    <p>Indian, Chinese</p>
+                    <p>Tenali</p>
+                </div>
+            </div>
+    
+            <div class="restaurant-card">
+                <img src="bir1.jpg" alt="Chicken Curry">
+             
+                <div class="restaurant-info">
+                    <h3>Madhuram Family Restaurant</h3>
+                    <p>⭐ 3.9 • 20-25 mins</p>
+                    <p>Indian, Chinese, Biryani</p>
+                    <p>Tenali</p>
+                </div>
+            </div>
+    
+            <div class="restaurant-card">
+                <img src="tomato.jpg" alt="cream of tomato sup">
+                <div class="restaurant-info">
+                    <h3>ARAB STREET RESTAURANT</h3>
+                    <p>⭐ 4.4 • 20-25 mins</p>
+                    <p>South Indian, Chinese</p>
+                    <p>Tenali-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We bring the best restaurants and deals to your doorstep. Order your favorite dishes with amazing discounts!</p>
+            </div>
+    
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="help.html">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+    
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Street, Karwar</p>
+                <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                <p><i class="fas fa-envelope"></i> support@fooddelivery.com</p>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© 2024 Food Delivery | All Rights Reserved</p>
+         <br>
+            <p>Developed by Rajitha yarra</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
